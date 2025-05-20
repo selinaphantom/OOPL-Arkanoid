@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{0849778e-0380-4054-9948-860f2fd57423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\background">
+      <UniqueIdentifier>{41881c79-108c-4263-8369-43171223c4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\boss">
+      <UniqueIdentifier>{7930f53f-2dd3-488e-97cd-eae7d8d09454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\brick">
+      <UniqueIdentifier>{a87abe31-52b8-4e76-b962-1f0983a2d78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\END">
+      <UniqueIdentifier>{1cc386b1-fedb-446e-bc0a-6a346e8676ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\menu">
+      <UniqueIdentifier>{3b03c561-ec2d-4022-ab17-ace30aae2b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\player">
+      <UniqueIdentifier>{6d8df151-7f21-4562-a1ec-d886121c5fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\round">
+      <UniqueIdentifier>{f1b56d4d-1eb9-4c24-8e1d-f48257e34392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GAME.RC2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Library\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Library\gamecore.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Library\gameutil.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\mygame_initialize.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\mygame_over.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\mygame_run.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\ballmove.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\boss.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\playmove.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\round.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\round_init.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Library\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\gamecore.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\gameutil.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\mygame.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\config.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\ballmove.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\boss.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\playmove.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\round.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\round_init.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Core\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\game.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Game Framework.png" />
+    <Image Include="Resources\GAME_FRAMEWORK.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\GAME_FRAMEWORK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\background\background.bmp">
+      <Filter>Resource Files\background</Filter>
+    </Image>
+    <Image Include="Resources\background\boss_background.bmp">
+      <Filter>Resource Files\background</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss_dead1.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss_dead2.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss_dead3.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss_dead4.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss_dead5.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss_dead6.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\boss\boss2.bmp">
+      <Filter>Resource Files\boss</Filter>
+    </Image>
+    <Image Include="Resources\brick\blue.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\blue2.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\brick_green.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\gold.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\iron.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\orange.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\orange2.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\brick\pink.bmp">
+      <Filter>Resource Files\brick</Filter>
+    </Image>
+    <Image Include="Resources\END\boss_end.bmp">
+      <Filter>Resource Files\END</Filter>
+    </Image>
+    <Image Include="Resources\END\boss_end2.bmp">
+      <Filter>Resource Files\END</Filter>
+    </Image>
+    <Image Include="Resources\END\END1.bmp">
+      <Filter>Resource Files\END</Filter>
+    </Image>
+    <Image Include="Resources\END\ending.bmp">
+      <Filter>Resource Files\END</Filter>
+    </Image>
+    <Image Include="Resources\menu\load_start1.bmp">
+      <Filter>Resource Files\menu</Filter>
+    </Image>
+    <Image Include="Resources\menu\load_start2.bmp">
+      <Filter>Resource Files\menu</Filter>
+    </Image>
+    <Image Include="Resources\menu\start.bmp">
+      <Filter>Resource Files\menu</Filter>
+    </Image>
+    <Image Include="Resources\menu\start_background.bmp">
+      <Filter>Resource Files\menu</Filter>
+    </Image>
+    <Image Include="Resources\player\ball.bmp">
+      <Filter>Resource Files\player</Filter>
+    </Image>
+    <Image Include="Resources\player\player.bmp">
+      <Filter>Resource Files\player</Filter>
+    </Image>
+    <Image Include="Resources\player\player_heart.bmp">
+      <Filter>Resource Files\player</Filter>
+    </Image>
+    <Image Include="Resources\round\round1.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round2.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round3.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round4.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round5.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round6.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round7.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round8.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round9.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round10.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round11.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round12.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round13.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round14.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round15.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round16.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round17.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round18.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round19.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round20.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round21.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round22.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round23.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round24.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round25.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round26.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round27.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round28.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round29.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round30.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+    <Image Include="Resources\round\round31.bmp">
+      <Filter>Resource Files\round</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\OOPL\map\round1.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round2.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round3.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round4.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round5.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round6.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round7.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round8.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round9.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round10.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round11.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round12.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round13.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round14.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round15.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round16.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round17.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round18.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round19.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round20.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round21.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round22.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round23.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round24.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round25.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round26.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round27.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round28.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round29.txt">
+      <Filter>map</Filter>
+    </Text>
+    <Text Include="..\OOPL\map\round30.txt">
+      <Filter>map</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
